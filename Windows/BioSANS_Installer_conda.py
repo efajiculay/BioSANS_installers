@@ -17,7 +17,7 @@ pythonCommand = "python"
 pipCommand = "pip"
 
 if python_ok:
-	"""
+
 	try:
 		os.system(pipCommand+" "+"install --upgrade pip --user")
 	except:
@@ -51,7 +51,6 @@ if python_ok:
 		os.system(pipCommand+" "+"install -i https://test.pypi.org/simple/ BioSANS2020-efajiculay --user")
 	finally:
 		pass
-	"""
 
 	A = subprocess.check_output([pipCommand, 'show', 'BioSANS2020-efajiculay'])
 	A = str(A).split("\\n")
@@ -64,9 +63,6 @@ if python_ok:
 	if install_dir != "":
 		install_dir = str(install_dir)
 		print()
-		print("############################################################################################################################")
-		print("################################################### INSTALLATION IS DONE ###################################################")
-		print()
 		print("To run BioSANS GUI, type the following commands")
 		print()
 		print(pythonCommand+" "+install_dir+"/BioSANS2020/BioSANS.py")
@@ -76,15 +72,14 @@ if python_ok:
 		print()
 		print(pythonCommand+" "+install_dir+"/BioSANS2020/BioSSL.py")
 		print()
-		print()
-		print("You may also launched BioSANS by double clicking the BioSANS.bat file in the desktop")
-		print()	
 
 		Shcut = open(os.environ["HOMEPATH"]+"/Desktop/BioSANS.bat","w")
 		Shcut.write("@echo off\n")
 		Shcut.write("start "+sys.executable.replace(".exe","w.exe")+" "+install_dir+"/BioSANS2020/BioSANS.py")
 		Shcut.close()
-		
+		print()
+		print("You may also launched BioSANS by double clicking the BioSANS.bat file in the desktop")
+		print()		
 	else:
 		print("software installed but directory of installation not automatically grabbed")
 		print("Locate installation directory using\n")
