@@ -1,0 +1,11 @@
+Function_Definitions:
+
+
+#REACTIONS
+0 NONE =>  A, 0         ::::: lambda timer_A : sin(timer_A)
+0 NONE =>  timer_A, 1
+
+@CONCENTRATION
+timer_A, 0
+A      , 0
+NONE   , 0 

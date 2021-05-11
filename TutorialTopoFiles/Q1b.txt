@@ -1,0 +1,24 @@
+Function_Definitions:
+alp = 0.5
+bet = 0.2
+
+#REACTIONS, Volume = 1, tend = 10, steps = 500, FileUnit = molar
+0 NONE => A10    , bet
+A10    => 0 phi  , alp
+
+0 NONE  => A8    , bet
+A8      => 0 phi , alp
+
+0 NONE => A5     , bet
+A5    => 0 phi   , alp
+
+0 NONE => A0     , bet
+A0    => 0 phi   , alp
+
+@CONCENTRATION
+A10    , 10 
+A8     , 8
+A5     , 5
+A0     , 0
+NONE   , 0
+phi    , 0

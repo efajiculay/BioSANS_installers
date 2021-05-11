@@ -1,0 +1,22 @@
+Function_Definitions:
+alpX = 0.5
+betX = 0.2
+
+alpY = 0.55
+betY = 0.25
+
+K = 0.2
+n = 2
+
+#REACTIONS, Volume = 1, tend = 100, steps = 100, FileUnit = molar
+0 NONE => X    , 1   ::::: lambda Y : betX*(K**n)/(K**n+Y**n)
+X    => 0 phi  , alpX
+
+0 NONE => Y    , 1   ::::: lambda X : betY*(K**n)/(K**n+X**n)
+Y    => 0 phi  , alpY
+
+@CONCENTRATION
+X    , 5
+Y    , 2
+NONE , 0
+phi  , 0

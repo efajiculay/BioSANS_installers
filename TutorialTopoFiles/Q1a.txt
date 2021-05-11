@@ -1,0 +1,13 @@
+Function_Definitions:
+Ao  = 10
+alp = 0.5
+bet = 0.2
+
+#REACTIONS, Volume = 1, tend = 10, steps = 100, FileUnit = molar
+0 NONE => A    , bet
+A    => 0 phi  , alp
+
+@CONCENTRATION
+A    , Ao
+NONE , 0
+phi  , 0

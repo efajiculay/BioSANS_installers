@@ -1,0 +1,12 @@
+#REACTIONS, Volume = 1, tend = 30, steps = 100, FileUnit = molar
+0 NONE  => A0.5   , 0.5
+A0.5    => 0 phi  , 0.2
+
+0 NONE  => A1.0   , 1.0
+A1.0    => 0 phi  , 0.4
+
+@CONCENTRATION
+A0.5    , 10
+A1.0    , 10
+NONE , 0
+phi  , 0

@@ -1,0 +1,12 @@
+Function_Definitions:
+b = 1
+k = 0.5
+
+#REACTIONS, Volume = 1, tend = 40, steps = 100, FileUnit = molar
+s + i => 2 i, b
+i     => r  , k
+
+@CONCENTRATION
+s    , 0.999
+r    , 0
+i    , 0.001

@@ -1,0 +1,9 @@
+Function_Definitions:
+
+#REACTIONS
+0 NONE =>  A, 10
+
+@CONCENTRATION
+A   ,	0, lambda A  :  0 if A >= 15 else A
+NONE,   0
+

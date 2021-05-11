@@ -1,0 +1,45 @@
+#REACTIONS, Volume = 1, tend = 100, steps = 100, FileUnit = molecules
+
+Sa  + C => SaC       , 1000  , 100000
+SaC + C => SaC2      , 100000, 1000
+Sa      => mA + Sa   , 100
+mA      => 0 phi     , 1
+mA      => A + mA    , 1
+A       => 0 phi     , 1
+
+Sb  + A => SbA       , 1000  , 100000
+SbA + A => SbA2      , 100000, 1000
+Sb      => mB + Sb   , 100
+mB      => 0 phi     , 1
+mB      => B + mB    , 1
+B       => 0 phi     , 1
+
+Sc  + B => ScB       , 1000  , 100000
+ScB + B => ScB2      , 100000, 1000
+Sc      => mC + Sc   , 100
+mC      => 0 phi     , 1
+mC      => C + mC    , 1
+C       => 0 phi     , 1  
+
+@CONCENTRATION
+
+mA    , 1
+mB    , 0
+mC    , 0
+
+A     , 0
+B     , 0
+C     , 0
+
+phi   , 0
+Sa    , 1 
+Sb    , 1
+Sc    , 1 
+
+SaC   , 0  
+SbA   , 0
+ScB   , 0  
+
+SaC2  , 0 
+SbA2  , 0  
+ScB2  , 0   

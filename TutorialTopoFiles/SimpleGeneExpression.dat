@@ -1,0 +1,11 @@
+#REACTIONS
+0 None  => mf      , 0.2
+	 mf => 0 phi   , 0.2
+	 mf => P + mf  , 800
+	 P  => 0 phi   , 0.09
+
+@CONCENTRATION
+None  , 1
+mf    , 0
+phi   , 0
+P     , 0

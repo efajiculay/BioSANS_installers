@@ -1,0 +1,10 @@
+Function_Definitions:
+
+#REACTIONS
+0 NONE =>  A      , 10
+0 NONE =>  timer_A,  1
+
+@CONCENTRATION
+timer_A, 0, lambda A, timer_A  :  timer_A if A >= 15 else 0
+A      , 0, lambda A, timer_A  :  0 if timer_A >=  5 else A
+NONE   , 0

@@ -1,0 +1,6 @@
+#REACTIONS
+A <=> B, 0.5, 0.25
+
+@CONCENTRATION
+A, 100
+B, 0

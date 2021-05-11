@@ -1,0 +1,10 @@
+#REACTIONS
+0 NONE => x, 1 ::::: lambda x, y    : 10*(y-x)
+0 NONE => y, 1 ::::: lambda x, y, z : -z*x+28*x-y
+0 NONE => z, 1 ::::: lambda x, y, z : x*y-(8/3)*z
+
+@CONCENTRATION
+x   , 9
+y   , 9
+z   , 28
+NONE, 0

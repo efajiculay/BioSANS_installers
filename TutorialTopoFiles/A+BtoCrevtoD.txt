@@ -1,0 +1,10 @@
+#REACTIONS, tend = 1000, tsteps = 100
+A + B <=> C    ,0.045  ,0.011
+C      => D    ,0.01
+
+@CONCENTRATION
+A, 100
+B, 90
+C, 0
+D, 0
+
