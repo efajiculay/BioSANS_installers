@@ -22,7 +22,7 @@ pip install python-libsbml
 
 python3 -m pip install -i https://test.pypi.org/simple/ BioSANS2020-efajiculay
 
-#The following command gives us the installation directory after the "Location :" tag
+# The following command gives us the installation directory after the "Location :" tag
 python3 -m pip install show BioSANS2020-efajiculay
 
 # to run BioSANS
