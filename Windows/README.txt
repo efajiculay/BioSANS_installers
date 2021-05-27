@@ -1,6 +1,6 @@
-The following are BioSANS installer for windows
+## The following are BioSANS installer for windows
 
-Main installers:
+### Main installers:
 
 	1) BioSANS_installer_py3.9.5_amd32.exe   - for windows > 7
 	2) BioSANS_installer_py3.9.5_amd64.exe   - for windows > 7
@@ -26,13 +26,13 @@ Main installers:
 
 		pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
 
-Optional installers:
+### Optional installers:
 
 	1) old_installer - old experimental or trial installer          - for windows > 7
 	2) pre_installed - this are pre-installed version of 1) and 2)  - for windows > 7
 	   I personally prefer 1) and 2)
 	   
-Uninstallation procedure:
+### Uninstallation procedure:
 
 	1 - 4) Uninstall the corresponding python version in the control panel
 	5 - 6) Type the following command
