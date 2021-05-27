@@ -6,7 +6,8 @@
 	2) BioSANS_installer_py3.9.5_amd64.exe   - for windows > 7
 	3) BioSANS_installer_py3.7.4_x86_64.exe  - for windows > XP
 	4) BioSANS_installer_py3.7.4_x86_32.exe  - for windows > XP
-	5) BioSANS_Installer_conda.py - python file to install BioSANS - for all windows version where python >= 3.7 is installed - normally > XP
+	5) BioSANS_Installer_conda.py - python file to install BioSANS - 
+	   for all windows version where python >= 3.7 is installed - normally > XP
 	   Use this when you want to install using your python/anaconda terminal. 
 	   
 	   For anaconda users:
