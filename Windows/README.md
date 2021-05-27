@@ -35,7 +35,7 @@
 	   
 ### Uninstallation procedure:
 
-1 - 4) Uninstall the corresponding python version in the control panel
-5 - 6) Type the following command
+1-4) Uninstall the corresponding python version in the control panel
+5-6) Type the following command
 
        pip uninstall BioSANS2020
