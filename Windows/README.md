@@ -12,20 +12,20 @@
 
    For anaconda users:
    You may create your own envinroment where you can run this file using the following commands;
-   
-   	conda create -n BioSANS python==3.8.8
-	activate BioSANS
-	python BioSANS_Installer_conda.py
+
+       conda create -n BioSANS python==3.8.8
+       activate BioSANS
+       python BioSANS_Installer_conda.py
 
    For non anaconda python users, just run the following command;
    
-   	python BioSANS_Installer_conda.py
+       python BioSANS_Installer_conda.py
 
    You may also create environment if you follow some tutorials such as from the following link;
    https://docs.python.org/3/library/venv.html 
 6) Installation using pip - for all windows version where python >= 3.7 is installed - normally > XP
 
-	pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
+       pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
 
 ### Optional installers:
 
