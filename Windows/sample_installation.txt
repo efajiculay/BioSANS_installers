@@ -1,0 +1,94 @@
+
+Downloading python from repository
+
+
+100% [........................................................................] 28377264 / 28377264
+
+Installing python and necessary libraries
+
+
+processing isolated local python installation : Approximately 2.0 %
+processing isolated local python installation : Approximately 5.0 %
+processing isolated local python installation : Approximately 8.0 %
+processing isolated local python installation : Approximately 10.0 %
+processing isolated local python installation : Approximately 12.0 %
+processing isolated local python installation : Approximately 15.0 %
+processing isolated local python installation : Approximately 18.0 %
+processing isolated local python installation : Approximately 20.0 %
+processing isolated local python installation : Approximately 22.0 %
+processing isolated local python installation : Approximately 25.0 %
+processing isolated local python installation : Approximately 28.0 %
+processing isolated local python installation : Approximately 30.0 %
+processing isolated local python installation : Approximately 32.0 %
+processing isolated local python installation : Approximately 35.0 %
+processing isolated local python installation : Approximately 38.0 %
+processing isolated local python installation : Approximately 100 %
+
+BioSANS Installation started :
+
+processing BioSANS installation : Approximately 1.0 %
+processing BioSANS installation : Approximately 3.0 %
+processing BioSANS installation : Approximately 4.0 %
+processing BioSANS installation : Approximately 6.0 %
+processing BioSANS installation : Approximately 7.0 %
+processing BioSANS installation : Approximately 9.0 %
+processing BioSANS installation : Approximately 10.0 %
+processing BioSANS installation : Approximately 11.0 %
+processing BioSANS installation : Approximately 13.0 %
+processing BioSANS installation : Approximately 14.0 %
+processing BioSANS installation : Approximately 16.0 %
+processing BioSANS installation : Approximately 17.0 %
+processing BioSANS installation : Approximately 19.0 %
+processing BioSANS installation : Approximately 20.0 %
+processing BioSANS installation : Approximately 21.0 %
+processing BioSANS installation : Approximately 23.0 %
+processing BioSANS installation : Approximately 24.0 %
+processing BioSANS installation : Approximately 26.0 %
+processing BioSANS installation : Approximately 27.0 %
+processing BioSANS installation : Approximately 29.0 %
+processing BioSANS installation : Approximately 30.0 %
+processing BioSANS installation : Approximately 31.0 %
+processing BioSANS installation : Approximately 33.0 %
+processing BioSANS installation : Approximately 34.0 %
+processing BioSANS installation : Approximately 36.0 %
+processing BioSANS installation : Approximately 37.0 %
+processing BioSANS installation : Approximately 39.0 %
+processing BioSANS installation : Approximately 40.0 %
+processing BioSANS installation : Approximately 41.0 %
+processing BioSANS installation : Approximately 43.0 %
+processing BioSANS installation : Approximately 44.0 %
+processing BioSANS installation : Approximately 46.0 %
+processing BioSANS installation : Approximately 47.0 %
+processing BioSANS installation : Approximately 49.0 %
+processing BioSANS installation : Approximately 100 %
+
+
+##################################################################################
+#                                                                                #
+#  Python terminal can be found in C:/BioSANS2021/python39amd64/Python39/python  #
+#  To run BioSANS GUI, type either one of the following 3 commands:              #
+#                                                                                #
+#  BioSANS                                                                       #
+#  C:/BioSANS2021/python39amd64/Python39/python -m BioSANS2020                   #
+#  C:/BioSANS2021/python39amd64/Python39/python -m BioSANS2020.BioSANS           #
+#                                                                                #
+#  To run BioSSL CLI, type either one of the following 2 commands:               #
+#                                                                                #
+#  BioSSL                                                                        #
+#  C:/BioSANS2021/python39amd64/Python39/python -m BioSANS2020.BioSSL            #
+#                                                                                #
+##################################################################################
+
+C:\Users\efaji\AppData\Local\Temp\_MEI138082\BioSANSLib\BioSANS.ico
+1 File(s) copied
+
+#####################################################
+#                                                   #
+#  You may also launched BioSANS by double click:   #
+#                                                   #
+#  BioSANS shortcut in Desktop                      #
+#  BioSANS shortcut in Start Menu                   #
+#                                                   #
+#####################################################
+
+Exit now? Y/N
