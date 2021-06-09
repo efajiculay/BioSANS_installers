@@ -1,0 +1,18 @@
+propagate 
+	A => B, 0.2 & 
+	B => C, 0.3 
+where 
+	A=100 & 
+	B=0.2 & 
+	C=0 
+using CLE 
+with 
+	tn=50 & 
+	tlen=1000 & 
+	miter=30 & 
+	mult_proc=True & 
+	fout=Traj1
+;
+
+propagate A => B, 0.2 & B => C, 0.3 where A=100 & B=0.2 & C=0 using CLE with tn=50 & tlen=1000 & miter=2 & mult_proc=True & fout=Traj2
+;

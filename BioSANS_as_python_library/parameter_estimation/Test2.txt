@@ -1,0 +1,11 @@
+Function_Definitions:
+Ao = 100
+Bo = 0
+kf1 = 200
+
+#REACTIONS
+2 A => B, -kf1
+
+@CONCENTRATION
+A, Ao
+B, Bo
