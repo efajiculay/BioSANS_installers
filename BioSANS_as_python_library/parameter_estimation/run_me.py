@@ -25,7 +25,8 @@ if __name__ == '__main__':
 		#Uncomment and comment to try each
 		#method = "k_est6" #NeldMead
 		#method = "k_est8"  #Powell
-		method = "k_est10"  #L-BFGS-B
+		#method = "k_est10"  #L-BFGS-B
+		method = "MCEM"
  		
 		FileIn = "molar" #uses macroscopic equations but still uses file units and no conversion
 

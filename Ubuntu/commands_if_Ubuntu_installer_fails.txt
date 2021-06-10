@@ -13,27 +13,20 @@ sudo apt install curl
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
 
-#Installing common lissing libraries
-python3 -m pip install DateTime
-python3 -m pip install pathlib
-python3 -m pip install Pillow
-python3 -m pip install numpy
-python3 -m pip install thread6
-python3 -m pip install pandas
-python3 -m pip install matplotlib==3.3.3
-python3 -m pip install python-libsbml
-python3 -m pip install scipy
-python3 -m pip install sdeint
-python3 -m pip install func_timeout
-python3 -m pip install sympy
-
 #Installing BioSANS
-python3 -m pip install -i https://test.pypi.org/simple/ BioSANS2020-efajiculay
+python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
 
 #Locating BioSANS installation directory
-python3 -m pip install show BioSANS2020-efajiculay
+python3 -m pip install show BioSANS2020
 
-#Save the result of the above command for you will need
+# to run BioSANS
+cd "to the location directory"
+python3 BioSANS.py
+
+#You may also run BioSANS using any of the following commands
+BioSANS
+python3 -m BioSANS2020
+python3 -m BioSANS2020.BioSANS
 
 
 

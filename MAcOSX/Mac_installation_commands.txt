@@ -11,22 +11,16 @@ brew install python
 python3 -m pip install --upgrade pip
 brew install --cask anaconda
 
-pip install pillow
-pip install numpy
-pip install matplotlib==3.3.3
-pip install simps
-pip install spicy
-pip install sdeint
-pip install func_timeout
-pip install python-libsbml
-pip install pandas
-pip install applescript
-
 python3 -m pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
 
 # The following command gives us the installation directory after the "Location :" tag
-python3 -m pip install show BioSANS2020-efajiculay
+python3 -m pip install show BioSANS2020
 
 # to run BioSANS
 cd "to the location directory"
 python3 BioSANS.py
+
+#You may also run BioSANS using any of the following commands
+BioSANS
+python3 -m BioSANS2020
+python3 -m BioSANS2020.BioSANS
