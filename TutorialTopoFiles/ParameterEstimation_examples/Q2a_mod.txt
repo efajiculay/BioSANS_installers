@@ -1,0 +1,32 @@
+Function_Definitions:
+alpA = 0.5
+betA = 0.2
+
+alpR = 0.5
+betR = 0.2
+
+
+#REACTIONS, Volume = 1, tend = 10, steps = 100, FileUnit = molar
+0 NONE => A    , 1   ::::: lambda R, K : betA*K/(K+R)
+A    => 0 phi  , alpA
+
+0 NONE => R    , 1   ::::: lambda A, K : betR*A/(K+A)
+R    => 0 phi  , alpR
+
+0 NONE => K    , 0
+
+@CONCENTRATION
+A    , 0
+R    , 0
+NONE , 0
+phi  , 0
+K    , -1
+
+
+
+
+
+
+
+
+

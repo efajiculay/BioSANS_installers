@@ -1,0 +1,18 @@
+Function_Definitions:
+Ao = 100
+Bo = 0
+Co = 0
+
+#REACTIONS
+A => B, -1
+B => C, -1
+
+@CONCENTRATION
+A, Ao
+B, -1
+C, Co
+
+
+
+
+
