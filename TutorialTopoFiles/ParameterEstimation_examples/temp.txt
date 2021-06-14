@@ -1,0 +1,9 @@
+#REACTIONS
+ A => B, 1 
+ B => C, 1
+
+@CONCENTRATION
+A,100
+B,0
+C,0
+

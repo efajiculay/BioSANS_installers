@@ -6,7 +6,7 @@ alpR = 0.5
 betR = 0.2
 
 
-#REACTIONS, Volume = 1, tend = 10, steps = 100, FileUnit = molar
+#REACTIONS
 0 NONE => A    , 1   ::::: lambda R, K : betA*K/(K+R)
 A    => 0 phi  , alpA
 

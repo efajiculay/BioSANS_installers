@@ -1,0 +1,1 @@
+propagate A => B, -1 & B => C, -1 where A=100 & B=0 & C=0 using k_est6 with EdataFile=AtoBtoC_data.txt;

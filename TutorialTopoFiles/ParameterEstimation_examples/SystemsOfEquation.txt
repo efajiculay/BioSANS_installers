@@ -1,0 +1,34 @@
+#REACTIONS
+0 NONE => Fx, 1 ::::: lambda x, y :  0.5*x**2 + 2*x*y +y**2 - 948.5
+0 NONE => Gx, 1 ::::: lambda x, y : -10*x**2 + 12*x*y -15*y**2 + 8830
+0 NONE => x, 0
+0 NONE => y, 0
+
+@CONCENTRATION
+x        , -1
+y        , -1
+Fx       , 0
+Gx       , 0
+NONE     , 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
