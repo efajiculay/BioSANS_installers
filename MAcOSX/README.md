@@ -1,4 +1,4 @@
-## The following are BioSANS installer for windows
+## The following are BioSANS installer for MacOSX
 
 ### Main installers:
 
