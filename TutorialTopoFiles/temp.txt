@@ -1,7 +1,9 @@
 #REACTIONS
- A <=> B, 0.1, 0.2
+ A => B, -1 
+ B => C, -1
 
 @CONCENTRATION
 A,100
 B,0
+C,0
 

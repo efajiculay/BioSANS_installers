@@ -3,16 +3,18 @@ from sympy import*
 from func_timeout import func_timeout, FunctionTimedOut 
 import matplotlib.pyplot as plt
 
+sys.path.append(os.path.abspath("../../"))
+
 from BioSANS2020.prepcodes.process import *
 from BioSANS2020.model.fileconvert.process_sbml import process_sbml as sbml_to_topo
 from BioSANS2020.myglobal import mglobals as globals2
 from BioSANS2020.myglobal import proc_global as proc_global
-from BioSANS2020.propagation.recalculate_globals import *
+from BioSANS2020.propagation.recalculate_globals import get_globals
 
 Wrong = 0
 start = 1
 for ih in range(start-1,2):
-	globals2.init()
+	globals2.init(globals2)
 
 	#method = "Analyt"
 	method = "Analyt-ftx"
@@ -46,10 +48,10 @@ for ih in range(start-1,2):
 			process(
 				rfile    	= topo,
 				miter		= 1,
-				inMolar		= FileIn,
-				Vm 			= Volume,
-				tn			= 100 ,
-				delX		= 1,
+				conc_unit		= FileIn,
+				v_volms 			= Volume,
+				tend			= 100 ,
+				del_coef		= 1,
 				normalize	= False,
 				logx		= False,
 				logy		= False,
@@ -59,7 +61,7 @@ for ih in range(start-1,2):
 				save		= True,
 				out_fname	= outf,
 				plot_show	= False,
-				Cinput		= {},
+				c_input		= {},
 				vary 		= "",
 				mult_proc	= False,
 				implicit    = True,

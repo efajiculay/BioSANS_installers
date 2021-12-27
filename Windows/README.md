@@ -31,7 +31,7 @@
 
 1) old_installer - old experimental or trial installer          - for windows > 7
 2) pre_installed - this are pre-installed version of 1) and 2)  - for windows > 7
-   I personally prefer 1) and 2)
+   I personally prefer Main installers 1) and 2) above
 	   
 ### Uninstallation procedure:
 
