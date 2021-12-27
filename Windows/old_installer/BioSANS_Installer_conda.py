@@ -48,11 +48,11 @@ if python_ok:
 			os.system(pipCommand+" "+"install "+item+"")		
 
 	try:
-		os.system(pipCommand+" "+"install -i https://test.pypi.org/simple/ BioSANS2020-efajiculay --user")
+		os.system(pipCommand+" "+"install BioSANS2020 --user --upgrade")
 	finally:
 		pass
 
-	A = subprocess.check_output([pipCommand, 'show', 'BioSANS2020-efajiculay'])
+	A = subprocess.check_output([pipCommand, 'show', 'BioSANS2020'])
 	A = str(A).split("\\n")
 	install_dir = ""
 	for row in A:
@@ -83,7 +83,7 @@ if python_ok:
 	else:
 		print("software installed but directory of installation not automatically grabbed")
 		print("Locate installation directory using\n")
-		print(pipCommand+" "+"show BioSANS2020-efajiculay")
+		print(pipCommand+" "+"show BioSANS2020")
 		print()
 		print()
 		print("To run BioSANS GUI, type the following commands")

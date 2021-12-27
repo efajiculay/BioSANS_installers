@@ -5,7 +5,7 @@
 1) Installation using pip - in most cases, Ubuntu comes with python and recently python 3.8 is default in Ubuntu.
    We can simply Install BioSANS by running the following command in Ubuntu Terminal;
 
-       pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
+       pip install --index-url BioSANS2020 --upgrade
 	   
    After the installation, you can launcehd BioSANS GUI by any of the following terminal commands;
 	   

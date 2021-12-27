@@ -55,16 +55,16 @@ except:
 	pass
 	
 try:
-	os.system("pip3 install -i https://test.pypi.org/simple/ BioSANS2020-efajiculay")
+	os.system("pip3 install -i https://test.pypi.org/simple/ BioSANS2020")
 except:
-	os.system("pip install -i https://test.pypi.org/simple/ BioSANS2020-efajiculay")
+	os.system("pip install -i https://test.pypi.org/simple/ BioSANS2020")
 finally:
 	pass	
 
 try:
-	A = subprocess.check_output(['pip3', 'show', 'BioSANS2020-efajiculay'])
+	A = subprocess.check_output(['pip3', 'show', 'BioSANS2020'])
 except subprocess.CalledProcessError as err:
-	A = subprocess.check_output(['pip', 'show', 'BioSANS2020-efajiculay'])
+	A = subprocess.check_output(['pip', 'show', 'BioSANS2020'])
 finally:
 	pass
 	
@@ -101,9 +101,9 @@ else:
 	print("Locate installation directory using\n")
 										 
 			
-	print("pip3 show BioSANS2020-efajiculay")
+	print("pip3 show BioSANS2020")
 	print("or")
-	print("pip show BioSANS2020-efajiculay")
+	print("pip show BioSANS2020")
 	print()
 	print("To run BioSANS GUI, type the following commands")
 	print()

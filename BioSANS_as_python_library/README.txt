@@ -1,8 +1,8 @@
 The following set of commands will update BioSANS by first uninstall old version followed by reinstallation. 
 The updated or latest version in test.pypi.org will be installed.
 
-	pip uninstall BioSANS2020
-	pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple BioSANS2020
+	# pip uninstall BioSANS2020
+	pip install BioSANS2020 --upgrade
 	
 To run BioSANS, type any of the followig command and hit enter.
 
